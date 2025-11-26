@@ -333,13 +333,19 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 50%;
+  border-radius: var(--radius-16);
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar-box img {
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: var(--radius-12);
 }
+
 
 
 
